@@ -1,6 +1,6 @@
 # Knowledge Neurons in Pretrained Transformers
 
-Code for the MVA/ENSTA XAI course project. Based on the paper:
+Code for the MVA XAI course project. Based on the paper:
 
 > **Knowledge Neurons in Pretrained Transformers**
 > Damai Dai, Li Dong, Yaru Hao, Zhifang Sui, Baobao Chang, Furu Wei.
@@ -48,15 +48,6 @@ experiments/
   lambda_sweep.py           # Lambda sweep analysis
   kn_overlap_analysis.py    # Neuron overlap between related facts
 results/                    # Generated figures (PDF) and result files (JSON)
-original_repo/              # Clone of the original paper's code
-report.tex                  # Project report (LaTeX)
-report.pdf                  # Compiled report
 ```
 
-## Report
 
-The report (`report.tex`) can be compiled with:
-
-```bash
-pdflatex report.tex && pdflatex report.tex
-```
